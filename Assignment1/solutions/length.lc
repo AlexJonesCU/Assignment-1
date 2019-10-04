@@ -1,0 +1,6 @@
+let rec length = \x.
+  if (hd x) = # then 0
+  else S (length (tail x)) in
+  
+
+length S0:S0:S0:S0:S0:#

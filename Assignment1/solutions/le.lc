@@ -1,0 +1,7 @@
+let rec le = \n. \m.
+     if n = 0 then SO
+     else if m = 0 then O
+     else le (minus_one n) (minus_one m)
+     
+le S 0 S 0
+

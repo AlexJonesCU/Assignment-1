@@ -1,0 +1,15 @@
+let rec le = \n.\m.
+  if n = 0 then S0
+  else if m = 0 then 0
+  else le (minus_one n) (minus_one m) in
+ 
+let rec sort = \x.\y.
+  if y = # then x:y
+  else if le x (hd y) = S ) then x:y
+  else (hd y):(insert(x)(tl y)) in
+  
+ let rec print = \x.
+  if x = # then x
+  else sort(hd x)(sort(tl x)) in
+
+sort S S 0:S 0:#
