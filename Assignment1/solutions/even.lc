@@ -1,6 +1,6 @@
 let rec even = \x.
-     if x = # then S O
-     else if tl x = # then O
+     if x = # then S 0
+     else if tl x = # then 0
      else if even tl(tl(x))
      
 even a1:a2:a3:a4:#
