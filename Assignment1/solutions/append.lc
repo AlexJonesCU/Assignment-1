@@ -2,4 +2,4 @@ let rec append = \x. \y.
      if x = # then y
      else hd x:(append tl x) y) in
      
-append 0:S 0:# a:b:#
+append a1:a2:a3:# a4:#
