@@ -6,4 +6,4 @@ let rec reverse =\x.
   if x = # then x
   else append(reverse (tl x)) ((hd x):#) in
   
-  reverse a:b:c:#
+  reverse a1:a2:a3:#
