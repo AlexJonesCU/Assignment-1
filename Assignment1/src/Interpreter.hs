@@ -134,7 +134,3 @@ subst id s e = emap (subst id s) e
 -- subst id s (ETl e) = ETl (subst id s e)
 -- subst id s ENil = ENil
 -- subst id s (ECons e l) = ECons (subst id s e) (subst id s l)
-
-
-
-
