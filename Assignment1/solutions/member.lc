@@ -1,6 +1,6 @@
 let rec member = \x. \y.
-     if tl x = # then O
-     else if tl x = y then SO
-     else if member (tl x) (y)
+     if tl x = # then 0
+     else if tl x = y then S0
+     else if member (tl x) in
 
 member (a) (a:b:#)
